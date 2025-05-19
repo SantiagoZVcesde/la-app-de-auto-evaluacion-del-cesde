@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel CESDE</title>
+    <link rel="stylesheet" href="../css/mystyles.css" />
+</head>
+
+<body>
+    <script>
+        function toggleMensajes() {
+            const box = document.getElementById('mensajesBox');
+            box.classList.toggle('open');
+        }
+    </script>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-icon">👤</div>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <div class="logo">CESDE</div>
+            </header>
+
+            <div class="dashboard">
+                <section class="welcome-card">
+                    <h1>¡Bienvenido, <span class="name">Usuario!</span> 👋</h1>
+                    <div class="buttons">
+                        <div class="buttons">
+                            <button onclick="toggleMensajes()">✉️ Mensajes</button>
+                            <div class="mensajes-box" id="mensajesBox">
+                                <p>No tienes mensajes nuevos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="info-cards">
+                    <div class="card">
+                        <h2>Progreso del curso</h2>
+                        <p>75%</p>
+                    </div>
+                    <div class="card">
+                        <h2>Próxima entrega</h2>
+                        <p><strong>25 de abril</strong></p>
+                    </div>
+                    <div class="autoevaluacion-card">
+                        <button class="auto-btn"> <a
+                                href="paginaDeExplicacionDocente.html">REALIZAR<br>AUTOEVALUACIÓN</button>
+                    </div>
+
+            </div>
+            </section>
+    </div>
+    </main>
+    </div>
+</body>
+
+</html>
