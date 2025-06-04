@@ -1,0 +1,110 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f20877, #f5d9e8);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankYouContainer {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.thankYouCard {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.thankYouCard:hover {
+    transform: translateY(-5px);
+}
+
+.checkmark {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.checkmarkCircle {
+    stroke: #f900ba;
+    stroke-width: 2;
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-linecap: round;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmarkCheck {
+    transform-origin: 50% 50%;
+    stroke: #ea00ff;
+    stroke-width: 2;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+h1 {
+    color: #e921d2;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.thankYouMessage {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.returnButton {
+    display: inline-block;
+    background-color: #f2186b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.returnButton:hover {
+    background-color: #f904c8;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #e91e63;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

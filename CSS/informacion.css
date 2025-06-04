@@ -1,7 +1,4 @@
-/* Estilos generales */
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
+body{
     background: linear-gradient(to right, #FFC0CB, #FFE4ED);
 }
 
@@ -13,7 +10,7 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: #2c3e50;
     color: white;
@@ -33,14 +30,14 @@ h2 {
 }
 
 
-.rating-scale {
+.ratingScale {
     display: flex;
     justify-content: space-between;
     margin: 25px 0;
     text-align: center;
 }
 
-.scale-item {
+.scaleItem {
     flex: 1;
     padding: 10px;
     background-color: white;
@@ -49,44 +46,44 @@ h2 {
     margin: 0 5px;
 }
 
-.scale-item .number {
+.scaleItem .number {
     display: block;
     font-size: 24px;
     font-weight: bold;
     color: #000000;
 }
 
-.scale-item .label {
+.scaleItem .label {
     font-size: 14px;
     color: #7f8c8d;
 }
 
-.time-section {
+.timeSection {
     background-color: #e8f4fc;
     padding: 20px;
     border-radius: 8px;
     margin: 25px 0;
 }
 
-.time-display {
+.timeDisplay {
     text-align: center;
     margin: 15px 0;
 }
 
-.time-display .minutes {
+.timeDisplay .minutes {
     font-size: 36px;
     font-weight: bold;
     color: #000000;
 }
 
-.instructions-section ul {
+.instructionsSection ul {
     background-color: white;
     padding: 20px 30px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.instructions-section li {
+.instructionsSection li {
     margin-bottom: 10px;
 }
 
@@ -95,7 +92,7 @@ h2 {
     margin: 40px 0;
 }
 
-.btn-start {
+.btnStart {
     display: inline-block;
     padding: 12px 30px;
     background-color: #ff78cb;
@@ -106,7 +103,7 @@ h2 {
     transition: background-color 0.3s;
 }
 
-.btn-start:hover {
+.btnStart:hover {
     background-color: #fc00a4;
 }
 

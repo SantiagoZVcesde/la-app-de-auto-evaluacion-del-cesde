@@ -24,13 +24,13 @@ body {
   padding: 20px 0;
 }
 
-.profile-icon {
+.profileIcon {
   font-size: 24px;
   color: white;
   margin-bottom: 550px;
 }
 
-.main-content {
+.mainContent {
   flex: 1;
   padding: 30px;
   display: flex;
@@ -59,21 +59,22 @@ body {
   font-family: sans-serif;
 }
 
-.welcome-card {
+.welcomeCard {
   background: white;
   border-radius: 15px;
   padding: 25px;
-  max-width: 400px;
-  margin-left: 12%;
-  height: 400px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-left:1%;
+  height: 650px;
+  width: 50px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
-.welcome-card .name {
+.welcomeCard .name {
   font-weight: bold;
 }
 
-.welcome-card p {
+.welcomeCard p {
   margin: 10px 0;
 }
 
@@ -94,7 +95,7 @@ body {
   background-color: #eee;
 }
 
-.info-cards {
+.infoCards {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -105,7 +106,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   min-width: 180px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
 }
 
 .card h2 {
@@ -127,14 +128,12 @@ body {
   flex-wrap: wrap;
 }
 
-/* ya existía */
-.welcome-card {
+
+.welcomeCard {
   flex: 1;
-  max-width: 400px;
 }
 
-/* actualizado */
-.info-cards {
+.infoCards {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -145,11 +144,12 @@ body {
   background-color: white;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
   width: 200px;
+  height: 250px;
 }
 
-.autoevaluacion-card {
+.autoevaluacionCard {
   background: white;
   padding: 20px;
   border-radius: 15px;
@@ -157,7 +157,7 @@ body {
   margin-top: 20px;
 }
 
-.auto-btn {
+.autoBtn {
   background-color: #f44385;
   color: white;
   border: none;
@@ -171,7 +171,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.auto-btn:hover {
+.autoBtn:hover {
   background-color: #e03270;
 }
 
@@ -180,7 +180,7 @@ a {
   text-decoration: none;
 }
 
-.mensajes-box {
+.mensajesBox {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease;
@@ -191,7 +191,7 @@ a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
-.mensajes-box.open {
+.mensajesBox.open {
   max-height: 200px;
   padding: 10px;
 }

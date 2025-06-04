@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESGITRARSE - CESDE</title>
+    <link rel="stylesheet" href="../css/estilosDeRegistro.css" />
+</head>
+
+<body>
+    <div class="logo">CESDE</div>
+    <div class="container">
+        <h2>REGISTRATE</h2>
+
+        <form onsubmit="window.location.href='registro_exitoso.html'; return false;">
+            <input type="text" name="name" placeholder="NOMBRE" required />
+            <input type="text" name="last_name" placeholder="APELLIDO" required />
+            <input type="email" name="email" placeholder="CORREO ELECTRONICO" required />
+            <input type="password" name="password" placeholder="CREA UNA CONTRASEÑA" required />
+            <button type="submit"><a href="registroExitoso.html">REGISTRATE</a></button>
+        </form>
+
+        <div class="extraLinks">
+            <p>¿Ya tienes una cuenta? <a href="paginaDeInicio.html">Iniciar sesión</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
